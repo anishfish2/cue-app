@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cue — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; color: #1a1a1a; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #111; } a { color: #7eb6ff; } }
+  h1 { font-size: 1.8rem; margin: 0 0 .3em; }
+  h2 { font-size: 1.2rem; margin: 1.8em 0 .4em; }
+  ul { padding-left: 1.3em; } li { margin: .3em 0; }
+  p { margin: .7em 0; }
+  em { color: #888; }
+  code { font-family: ui-monospace, Menlo, monospace; }
+</style>
+</head>
+<body>
+<h1>Cue — Privacy Policy</h1>
+<p><em>Last updated: June 8, 2026</em></p>
+<p>This policy explains what Cue ("the app", "we", "us") does with your data. Cue is a camera app that gives real-time photography guidance and AI-assisted edits.</p>
+<h2>The short version</h2>
+<ul><li>Cue does <strong>not</strong> require an account and does <strong>not</strong> ask for your name, email, or contact info.</li><li>When you use an <strong>AI feature</strong> (Auto framing/settings or AI Edit), Cue sends a <strong>single downsized camera frame, or the photo you're editing</strong>, to our server, which forwards it to a cloud AI model to generate guidance or edits. That image is processed transiently and <strong>not stored</strong>.</li><li>Photos you capture are saved to <strong>your device's photo library</strong>. We never upload your photo library.</li><li>We use <strong>anonymous, privacy-preserving analytics</strong> to understand how features are used (e.g. how often Auto is used, whether an edit was kept). This contains <strong>no images and no information that identifies you</strong>.</li><li>If you subscribe, <strong>Apple</strong> processes the payment. We never see your card or billing details.</li></ul>
+<h2>Information we process</h2>
+<p><strong>Camera images (only for AI features).</strong> Cue's live preview and on-device scene analysis run entirely on your phone. When you actively trigger an AI feature, a single downsized image (long edge ~1024px) is sent over an encrypted (HTTPS) connection to our backend, which forwards it to our AI provider to return photography guidance or edit settings. We do <strong>not</strong> send images during normal capture — only when you ask the AI to help.</p>
+<p><strong>Anonymous usage analytics.</strong> To improve the app, we record anonymous product events such as: app opened, onboarding completed, an Auto shot taken, whether you kept the original or Cue's edit, and whether a paywall was shown. These events are tied to a <strong>random, app-generated identifier</strong>, not to your identity, and never include image content, the contents of your photos, or precise location.</p>
+<p><strong>Subscription data.</strong> If you purchase a subscription, the transaction is handled by <strong>Apple</strong>. Our subscription provider (<strong>RevenueCat</strong>) receives a random app-generated user ID and your purchase/receipt status so we can unlock paid features and prevent abuse. We do <strong>not</strong> receive your name, email, or payment card information.</p>
+<p><strong>Device integrity (anti-abuse).</strong> To protect our service from automated abuse, the app uses <strong>Apple's App Attest</strong>, which generates a device-bound cryptographic key. This key is anonymous and is used only to confirm requests come from a genuine, unmodified copy of Cue. It does <strong>not</strong> identify you or track you across apps.</p>
+<ul><li><strong>Camera</strong> — to show the viewfinder and analyze the scene.</li><li><strong>Add to Photos</strong> — to save the pictures you capture.</li><li>Choosing a photo to edit uses the system photo picker, which does <strong>not</strong> grant Cue standing access to your library.</li></ul>
+<p>We do <strong>not</strong> collect your contacts, precise location, or advertising identifiers, and we do <strong>not</strong> use your data for advertising or sell it.</p>
+<h2>How we use it</h2>
+<ul><li><strong>Images</strong> are used solely to generate the guidance or edit you requested, then returned to your app.</li><li><strong>Anonymous analytics</strong> are used only to understand feature usage and improve the app.</li><li><strong>Subscription status</strong> is used only to unlock paid features and enforce fair usage limits.</li></ul>
+<h2>Sharing and third parties (subprocessors)</h2>
+<p>To run Cue we share the minimum necessary data with:</p>
+<ul><li><strong>Amazon Web Services (AWS) — Bedrock</strong>, which runs the <strong>Anthropic Claude</strong> models we use. Per AWS, content submitted to Amazon Bedrock is <strong>not stored</strong> by the service and is <strong>not used to train</strong> the underlying models, and is not shared with the model provider for training. Processing occurs within our AWS account boundary.</li><li><strong>Apple</strong> — processes subscription payments and delivers the app.</li><li><strong>RevenueCat</strong> — manages subscription entitlements (receives an anonymous user ID and purchase status only).</li><li><strong>Mixpanel</strong> (US data residency) — processes the anonymous usage events described above. Events are tied to a random, app-generated identifier and never contain images or the contents of your photos.</li></ul>
+<p>We do <strong>not</strong> sell your data or share it for cross-context behavioral advertising.</p>
+<h2>Data retention</h2>
+<ul><li><strong>Images:</strong> not retained. The image you send for an AI feature exists only transiently to produce a response. Our backend is <strong>stateless</strong> and saves no copy.</li><li><strong>Analytics events:</strong> retained in anonymized form to analyze trends.</li><li><strong>Subscription status:</strong> retained while your subscription is active as required to provide the service.</li></ul>
+<h2>Your choices</h2>
+<ul><li>You can decline the Camera permission, though AI features require it.</li><li>You can use Cue without a subscription (the free tier).</li><li>Where required by law (e.g. GDPR/CCPA), you may request information about or deletion of data associated with your anonymous identifier by contacting us; because we don't hold identifying information, we may ask for the identifier shown in the app's settings to locate it.</li></ul>
+<h2>Security</h2>
+<p>All communication between the app and our backend uses encrypted HTTPS (TLS). Requests are authenticated with Apple's App Attest to prevent abuse.</p>
+<h2>Children</h2>
+<p>Cue is not directed to children under 13, and we do not knowingly collect data from them.</p>
+<h2>Changes</h2>
+<p>We may update this policy; the "Last updated" date above will change. Continued use of the app means you accept the current policy.</p>
+<h2>Contact</h2>
+<p>Questions? Contact us at <strong>anish@usesquire.app</strong>.</p>
+</body>
+</html>
